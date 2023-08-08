@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* ---firstfnt: 'Montserrat', sans-serif; */
+    ---firstfnt: 'Montserrat', sans-serif;
+}
+/* nav-fnt-start */
+.nav-fnt{
+    font-family: var(---firstfnt);
+    position: relative;
+}
+.nav-fnt::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 55%;
+    height: 2px;
+    background-color: black;
+    border: 4px;
+    scale: .1;
+    transform-origin: left;
+    transition: scale .25s;
+}
+
+.scrollToTop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgb(2,45,78);
+    /* background-color: black; */
+    color: white;
+    /* border-radius: 50%; */
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.scrollToTop.hidden{
+    display: none;
+}
+
+.nav-fnt:hover::before{
+    scale: 1;
+}
+/* nav-end */
+
+header{
+    background-image: url(../img/landing\ page\ 1.jpg);
+    background-attachment: fixed;
+    /* height: 520px; */
+    height: 90vh;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: bby-bx;
+    animation-duration: 5s;
+    animation-delay: 2ms; 
+    animation-iteration-count: infinite;
+    opacity: 1;
+    z-index: 2;
+}
+
+ @keyframes bby-bx{
+    50%{
+        background-image: url(../img/landing\ page\ 1.jpg);
+        background-attachment: fixed;
+
+    }
+    100%{
+        background-image: url(../img/landing\ page\ 2.jpg);
+        background-attachment: fixed;
+
+    } 
+    
+ } 
+.main-fnt{
+    font-family: var(---firstfnt);
+    font-weight: bold;
+    text-shadow: 10px;
+    position: relative;
+    /* padding: 200px; */
+    margin-top: 199px; 
+}
+.main-fnt:hover{
+    color:rgb(242, 242, 167) ;
+}
+/*landing-btn*/
+.main-btn{
+   border: 2px solid rgb(242, 242, 167);
+   height: 22%;
+   padding: 4px 10px;
+   border-radius: 5px;
+   background-color: transparent;
+}
+.main-btn:hover{
+    color: black !important;
+    background-color: rgb(242, 242, 167);
+}
+.custom-link:hover{
+    color: black !important;
+    background-color: rgb(242, 242, 167);
+}
+
+/*landing-btn-end*/
+
+/* second-box-start*/
+.general-main{
+    margin-top: 12%;
+}
+.general-fnt{
+    font-family: var(---firstfnt);
+    font-weight: bold;
+    margin-left: 15% !important;
+}
+.brand-fnt{
+    font-family: var(---firstfnt);
+}
+
+.next-main-page{
+    font-family: var(---firstfnt);
+    margin-left: 15% !important;
+}
+
+/* second-box-end*/
+
+/* project-styling-start */
+.seemore-btn{
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 66px;
+    font-family: var(---firstfnt);
+    font-weight: bold;
+    background-color: rgb(242, 242, 167);
+
+}
+
+ .over{
+    overflow: hidden;
+    overflow-x: hidden;
+} 
+/* Boxcarstudy-styling-start*/
+.box-fnt1{
+    font-family: var(---firstfnt);
+}
+.box-fntM{
+    font-family: var(---firstfnt);
+}
+.boxcar-scla{
+    animation-name: boxcar-scla;
+    transition: 2s;
+}
+.boxcar-scla:hover{
+    transform: scale(1.2);
+    transition: 3s;
+}
+.storm-scla{
+    animation-name: storm-scla;
+    transition: 2s;
+}
+.storm-scla:hover{
+    transform: scale(1.2);
+    transition: 3s;
+}
+.view-fnt{
+    font-family: var(---firstfnt);
+}
+.custom-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* facilities stying-start */
+.faci-fnt{
+    font-family: var(---firstfnt);
+    font-size: 50px;
+    color: black;
+}
+.faci-p{
+    font-family: var(---firstfnt);
+
+}
+.circle-faci{
+    margin-top: 49px;
+    margin-left: 290px !important;
+}
+.Review-fnt{
+    font-family: var(---firstfnt);
+    margin-top: 55px;
+}
+.Research-fnt{
+    font-family: var(---firstfnt);
+    margin-top: 29px;
+}
+.Research-fnt-G{
+    font-family: var(---firstfnt);
+
+}
+.soul-high{
+    /* height: 90vh !important; */
+    background-attachment: fixed !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*reposisiviness-start*/
+ @media screen and (max-width:600px) {  
+    /* XR,11, 11PROMAX,12PROMAX,14PROMAX- 567 */
+    .general-main{
+        /* padding-top: 91% !important; */
+        margin-left: 2% !important;
+
+    }
+    .next-main-page{
+        padding-top: 4% !important;
+        margin-left: 9% !important;
+    }
+    .brand-fnt{
+        margin-left: 9% !important;
+        margin-top: -10% !important;
+    }
+    
+}
+@media screen and (max-width:926px){
+    .general-main{
+        margin-left: 2% !important;
+    }
+    .next-main-page{
+        font-size: 99%;
+    }
+
+    .box-fnt1{
+        text-align: center;
+    }
+    .box-fnt{
+        text-align: center;
+    }
+    .box-fntM{
+        text-align: center !important;
+    }
+}
+@media screen and (max-width:836px) {
+    .general-main{
+        /* padding-top: 18% !important; */
+        margin-left: -2% !important;
+    }
+    .box-fntM{
+        text-align: center !important;
+    }
+   
+
+    /* .brand-fnt{
+        padding-top: 4% !important;
+    } */
+    
+}
+@media screen and (max-width:768px){
+    .general-main{
+        /* padding-top: 25% !important; */
+        padding-left: 3% !important;
+    }
+    .general-fnt{
+        padding-left: 15% !important;
+
+    }
+    .next-main-page{
+         padding-right: 3% !important; 
+        
+    }
+    
+}
+@media screen and (max-width:690px){
+    .general-main{
+        /* padding-top: 32% !important; */
+        padding-left: 3% !important;
+    }
+    
+}
+@media screen and (max-width:636px){
+    .general-main{
+        /* padding-top: 40% !important; */
+        padding-left: 3% !important;
+    }
+
+    
+}
+@media only screen and (max-width: 768px){
+    .general-fnt{
+        /* padding-top: 21% !important; */
+        text-align: center !important;
+        justify-content: center !important;
+        padding-right: 15% !important;
+        margin: auto !important;
+    }
+    .box-fntM{
+        text-align: center !important;
+    }
+}
+@media screen and (max-width:588px){
+   .general-main{
+        /* margin-top: 20% !important; */
+        /* padding-left: 3% !important; */
+    }
+    .general-fnt{
+        /* margin-top: 26% !important; */
+        padding-left: 15% !important; 
+
+    }
+    
+}
+@media screen and (max-width:520px) {
+    .general-main{
+        /* margin-top: 32% !important; */
+        /* padding-left: 3% !important; */
+    }
+    
+}
+@media screen and (max-width:469px) {
+    .general-main{
+        /* margin-top: 47% !important; */
+        /* padding-left: 3% !important; */
+    }
+    
+}
+@media screen and (max-width:429px) {
+    .general-main{
+        /* margin-top: 54% !important; */
+    }
+    .next-main-page{
+        font-size: 87% !important;
+
+    }
+    .brand-fnt{
+        font-size: 96% !important;
+    }
+    .box-fntM{
+        text-align: center !important;
+        margin-left: -20% !important;
+    }
+    .box-fnt2{
+        text-align: center !important;
+        margin-left: -15% !important;
+    }
+    
+    
+}
+@media screen and (max-width:400px) {
+    .general-main{
+        /* margin-top: 60% !important; */
+        /* padding-left: 3% !important; */
+    }
+    .box-fntM{
+        text-align: center !important;
+        margin-left: -20% !important;
+    }
+    .box-fnt2{
+        text-align: center !important;
+        margin-left: -15% !important;
+    }
+    
+}
+@media screen and (max-width:378px) {
+    .general-main{
+        /* margin-top: 70% !important; */
+    }
+    .next-main-page{
+        font-size: 84% !important;
+    }
+    .box-fnt2{
+        text-align: center !important;
+        margin-left: -15% !important;
+    }
+    .box-fntM{
+        text-align: center !important;
+        margin-left: -20% !important;
+    }
+    
+}
+@media screen and (max-width:355px) {
+    .general-main{
+        /* margin-top: 85% !important; */
+    }
+    .next-main-page{
+        font-size: 84% !important;
+
+    }
+    
+    
+}
+@media screen and (max-width:325px) {
+    .general-main{
+        /* margin-top: 99% !important; */
+    }
+    .next-main-page{
+        font-size: 84% !important;
+
+    }
+    
+}
+@media screen and (max-width:279px) {
+    .general-main{
+        /* margin-top: 125% !important; */
+    }
+    .next-main-page{
+        font-size: 84% !important;
+
+    }
+    
+}
+
