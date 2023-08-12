@@ -6,6 +6,23 @@
     /* ---firstfnt: 'Montserrat', sans-serif; */
     ---firstfnt: 'Montserrat', sans-serif;
 }
+.glumie-wrapper{
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+}
+.Main-wrapper-over{
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+}
+.soul-wrapper{
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+
+}
+.over-all{
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+}
 /* nav-fnt-start */
 .nav-fnt{
     font-family: var(---firstfnt);
@@ -158,19 +175,23 @@ header{
 }
 .boxcar-scla{
     animation-name: boxcar-scla;
-    transition: 2s;
+    transition: 1s;
+     width:100%; 
+
 }
 .boxcar-scla:hover{
-    transform: scale(1.2);
-    transition: 3s;
+    transform: scale(1.1);
+    transition: 1s;
 }
 .storm-scla{
     animation-name: storm-scla;
-    transition: 2s;
+    transition: 1s;
+    /* height: 90vh; */
+    width:100%;
 }
 .storm-scla:hover{
-    transform: scale(1.2);
-    transition: 3s;
+    transform: scale(1.1);
+    transition: 1s;
 }
 .view-fnt{
     font-family: var(---firstfnt);
@@ -212,14 +233,14 @@ header{
 .soul-high{
     /* height: 90vh !important; */
     background-attachment: fixed !important;
+    /* clip-path: polygon(0% 0%, 100% 0, 100% 100%, 49% 92%, 0% 100%); */
+    height: 90vh;
+    width:100%;
 }
-
-
-
-
-
-
-
+.stomstudy{
+    height: 90vh;
+    width:100%;
+}
 
 
 
