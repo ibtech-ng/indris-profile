@@ -73,12 +73,8 @@
 /* nav-end */
 
 header{
-    /* background-image: url(../img/landing\ page\ 1.jpg); */
     background-image: url(../img/home-boxcar.jpg);
-    /* background-attachment: fixed; */
-    /* height: 520px; */
-    /* height: 90vh; */
-    /* width:100%; */
+     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,13 +89,9 @@ header{
  @keyframes bby-bx{
     50%{
         background-image: url(../img/home-boxcar.jpg);
-        /* background-attachment: fixed; */
-
     }
     100%{
         background-image: url(../img/home\ 2=.jpg);
-        /* background-attachment: fixed; */
-
     } 
     
  } 
@@ -108,8 +100,7 @@ header{
     font-weight: bold;
     text-shadow: 10px;
     position: relative;
-    /* padding: 200px; */
-    margin-top: 199px; 
+     margin-top: 190px;  
 }
 .main-fnt:hover{
     color:rgb(242, 242, 167) ;
@@ -121,6 +112,7 @@ header{
    padding: 4px 10px;
    border-radius: 5px;
    background-color: transparent;
+   margin-bottom: -150% !important;
 }
 .main-btn:hover{
     color: black !important;
@@ -192,7 +184,6 @@ header{
 .storm-scla{
     animation-name: storm-scla;
     transition: 1s;
-    /* height: 90vh; */
     width:100%;
 }
 .storm-scla:hover{
