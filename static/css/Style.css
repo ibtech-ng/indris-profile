@@ -81,10 +81,16 @@
     display: flex;
     justify-content: center;
    align-items: center;
+   animation-name: bby-bx;
+   animation-duration: 5s;
+   animation-delay: 2ms; 
+   animation-iteration-count: infinite;
+   opacity: 1;
+   z-index: 2;
 
 }
 
-header{
+/* header{
     background-image: url(../img/home-boxcar.jpg);
      height: 90px;
     background-position: center;
@@ -96,7 +102,7 @@ header{
     animation-iteration-count: infinite;
     opacity: 1;
     z-index: 2;
-}
+} */
 
  @keyframes bby-bx{
     50%{
