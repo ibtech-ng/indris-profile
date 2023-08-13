@@ -100,7 +100,7 @@ header{
     font-weight: bold;
     text-shadow: 10px;
     position: relative;
-     margin-top: 190px;  
+     margin-top: 197px;  
 }
 .main-fnt:hover{
     color:rgb(242, 242, 167) ;
@@ -184,6 +184,7 @@ header{
 .storm-scla{
     animation-name: storm-scla;
     transition: 1s;
+    /* height: 90vh; */
     width:100%;
 }
 .storm-scla:hover{
