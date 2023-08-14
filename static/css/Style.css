@@ -115,10 +115,10 @@
  } 
 .main-fnt{
     font-family: var(---firstfnt);
-    font-weight: bold;
-    text-shadow: 10px;
-    position: relative;
-     margin-top: 197px;  
+     color: white;
+     text-align: center; 
+      font-weight: bold;
+
 }
 .main-fnt:hover{
     color:rgb(242, 242, 167) ;
@@ -148,9 +148,10 @@
 
 /* second-box-start*/
 .general-main{
-    margin-top: 12%;
+    margin-top: 10%;
 }
 .general-fnt{
+   color: rgb(2,45,78);
     font-family: var(---firstfnt);
     font-weight: bold;
     margin-left: 15% !important;
@@ -160,14 +161,14 @@
 }
 
 .next-main-page{
-    font-family: var(---firstfnt);
+    font-family: var(---firstfnt) !important;
     margin-left: 15% !important;
 }
 
 /* second-box-end*/
 
 /* project-styling-start */
-.seemore-btn{
+/* .seemore-btn{
     height: 50px;
     width: 150px;
     align-items: center;
@@ -179,7 +180,19 @@
     font-weight: bold;
     background-color: rgb(242, 242, 167);
 
+} */
+.seeMORE-btnhh{
+    /* color: red; */
+    /* color: rgb(2,45,78) !important; */
+    border: 2px solid rgb(242, 242, 167);
+   height: 22%;
+   padding: 4px 10px;
+   border-radius: 5px;
+   background-color: rgb(242, 242, 167) !important;
+   background-color: transparent;
 }
+
+
 
  .over{
     overflow: hidden;
@@ -214,6 +227,8 @@
 }
 .view-fnt{
     font-family: var(---firstfnt);
+    color: rgb(2,45,78);
+    font-weight: bold;
 }
 .custom-link{
     text-decoration: none;
