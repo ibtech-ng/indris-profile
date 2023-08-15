@@ -90,6 +90,9 @@
    z-index: 2;
 
 }
+.structure-h3{
+    font-family: var(---firstfnt);
+}
 
 /* header{
     background-image: url(../img/home-boxcar.jpg);
@@ -106,10 +109,10 @@
 } */
 
  @keyframes bby-bx{
-    50%{
+    t0{
         background-image: url(../img/home-boxcar.jpg);
     }
-    100%{
+    from{
         background-image: url(../img/home\ 2=.jpg);
     } 
     
