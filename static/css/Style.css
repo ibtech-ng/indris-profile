@@ -10,6 +10,10 @@
     overflow: hidden !important;
     overflow-x: hidden !important;
 }
+.contact-over{
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+}
 .facili-wrapper{
     overflow: hidden !important;
     overflow-x: hidden !important;
@@ -98,19 +102,6 @@
     font-family: var(---firstfnt);
 }
 
-/* header{
-    background-image: url(../img/home-boxcar.jpg);
-     height: 90px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation-name: bby-bx;
-    animation-duration: 5s;
-    animation-delay: 2ms; 
-    animation-iteration-count: infinite;
-    opacity: 1;
-    z-index: 2;
-} */
 
  @keyframes bby-bx{
     t0{
@@ -143,6 +134,16 @@
    background-color: transparent;
    margin-bottom: -150% !important;
 }
+.contact-btn{
+   height: 45px;
+   width: 100px;
+   /* padding: 24px 25px; */
+   color: rgb(2,45,78);
+   background-color: rgb(242, 242, 167);
+  border: 3px solid  rgb(242, 242, 167);
+  background-color: rgb(242, 242, 167);
+  border-radius: 15px;
+}
 .main-btn:hover{
     color: black !important;
     background-color: rgb(242, 242, 167);
@@ -152,10 +153,11 @@
     background-color: rgb(242, 242, 167);
 }
 .More-btn-2{
-    /* border: 2px solid rgb(242, 242, 167); */
-    border: 2px solid rgb(2,45,78);
-    background-color: rgb(2,45,78) !important;
+    border: 2px solid rgb(242, 242, 167);
+    /* border: 2px solid rgb(2,45,78); */
+    background-color: rgb(242, 242, 167) !important;
    height: 22%;
+   color: rgb(2,45,78);
    padding: 4px 10px;
    border-radius: 5px;
    justify-content: center;
