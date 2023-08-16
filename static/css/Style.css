@@ -6,6 +6,10 @@
     /* ---firstfnt: 'Montserrat', sans-serif; */
     ---firstfnt: 'Montserrat', sans-serif;
 }
+.about-over{
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+}
 .facili-wrapper{
     overflow: hidden !important;
     overflow-x: hidden !important;
@@ -146,6 +150,22 @@
 .custom-link:hover{
     color: black !important;
     background-color: rgb(242, 242, 167);
+}
+.More-btn-2{
+    /* border: 2px solid rgb(242, 242, 167); */
+    border: 2px solid rgb(2,45,78);
+    background-color: rgb(2,45,78) !important;
+   height: 22%;
+   padding: 4px 10px;
+   border-radius: 5px;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   background-color: transparent;
+   margin-bottom: -150% !important;
+}
+.project-a{
+    text-decoration: none !important;
 }
 
 /*landing-btn-end*/
